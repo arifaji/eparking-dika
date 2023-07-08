@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 const logger = require('../util/logger');
-const models = [].concat(require('./users'), require('./authentications'));
+const models = [].concat(require('./parking'), require('./parking_status'));
 
 const db = {};
 
