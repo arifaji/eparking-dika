@@ -13,6 +13,11 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: true,
       },
+      status: {
+        field: 'status',
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
       nomor_polisi: {
         field: 'nomor_polisi',
         type: DataTypes.STRING,

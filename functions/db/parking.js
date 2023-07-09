@@ -7,6 +7,7 @@ module.exports = (sequelize, DataTypes) => {
         field: 'id_parking',
         primaryKey: true,
         allowNull: false,
+        autoIncrement: true,
       },
       jenis_kendaraan: {
         field: 'jenis_kendaraan',
